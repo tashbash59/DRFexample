@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Products</title>
+	<script type="text/javascript" src="scripts/form_proccesing.js"></script>
+	<style>
+		body {
+			text-align: center;
+		}
+		table {
+			margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            width: 50%;
+		}
+
+	</style>
+</head>
+<body>
+	<form id="myform" method="POST">
+		<h1> Форма </h1>
+		<p> имя </p>
+		<input type="" id="name" name="name" placeholder="введите имя">
+		<p> описание </p>
+		<input type="" id="des" name="des" placeholder="введите описание">
+		<p> цена </p>
+		<input type="number" step=".1" id="price" name="price" placeholder="введите цену">
+		<br>
+		<br>
+		<button type="submit">Отправить</button>
+		<hr>
+	</form>
+
+	<h1>Таблица</h1>
+
+	<table id="productTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
